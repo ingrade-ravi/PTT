@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Suthar | Data Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <!-- Navigation (Optional but good for single page) -->
+    <nav class="navbar">
+        <div class="logo">RS</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 1. Hero Section (DARK) -->
+    <section id="home" class="hero-section dark-theme">
+        <div class="background-elements">
+            <div class="shape circle-1"></div>
+            <div class="shape triangle-1"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="animate-fade-up">Ravi Suthar</h1>
+                <h2 class="animate-fade-up delay-1 typewriter">Aspiring Data Analyst | Python • SQL • Visualization</h2>
+                <p class="animate-fade-up delay-2 tagline">I turn raw data into actionable insights through analysis,
+                    automation, and visualization.</p>
+
+                <div class="contact-chips animate-fade-up delay-3">
+                    <span class="chip">📍 Gurgaon, India</span>
+                    <span class="chip">✉️ udaan.ravi@gmail.com</span>
+                    <span class="chip">📞 +91 1234567890</span>
+                </div>
+
+                <div class="social-links animate-fade-up delay-4">
+                    <a href="https://github.com/ingrade-ravi/Ravi-Portfolio" target="_blank"
+                        class="social-btn">GitHub</a>
+                    <a href="https://github.com/ingrade-ravi/Ravi-Portfolio" target="_blank"
+                        class="social-btn">Resume</a> <!-- Using github link as placeholder per prompt -->
+                    <a href="https://github.com/ingrade-ravi/Ravi-Portfolio" target="_blank"
+                        class="social-btn">Medium</a>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-in delay-2">
+                <div class="image-wrapper">
+                    <img src="Images/ravi 1.jpeg" alt="Ravi Suthar">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- 2. About Me (LIGHT) -->
+    <section id="about" class="about-section light-theme">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <!-- Placeholder or reuse profile image style or a simplified version -->
+                    <div class="creative-border">
+                        <img src="Images/ravi 1.jpeg" alt="Ravi Suthar Profile">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I am an aspiring <strong>data analyst</strong> with hands-on experience in analytics, reporting,
+                        and data-driven problem solving across corporate and academic projects. I currently work as a
+                        <strong>Senior System Engineer</strong>, where I focus on toil reduction, reporting analytics,
+                        and understanding user behavior through data.</p>
+                    <p>I have experience working with <strong>Python and SQL</strong>, building analytical and
+                        predictive systems, and transforming complex datasets into meaningful insights that support
+                        decision-making.</p>
+
+                    <div class="stats-container">
+                        <div class="stat-card">
+                            <h3>3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Python & SQL</h3>
+                            <p>Expert</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Skills (LIGHT) -->
+    <section id="skills" class="skills-section light-theme">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-tags">
+                        <div class="skill-pill">Python</div>
+                        <div class="skill-pill">SQL (Relational Databases)</div>
+                        <div class="skill-pill">Data Visualization</div>
+                        <div class="skill-pill">Predictive & Analytical Modeling</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Analytical Skills</h3>
+                    <div class="skill-tags">
+                        <div class="skill-pill">Data Pre-processing</div>
+                        <div class="skill-pill">Exploratory Data Analysis</div>
+                        <div class="skill-pill">Reporting & Insights Generation</div>
+                        <div class="skill-pill">Problem Solving</div>
+                        <div class="skill-pill">Toil Reduction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Projects (DARK) -->
+    <section id="projects" class="projects-section dark-theme">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="card-image">
+                        <img src="Images/Cover1.png" alt="Swachh Bharat V2">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Swachh Bharat V2</h3>
+                        <p class="problem-stmt"><strong>Problem:</strong> Inefficient waste collection planning and cost
+                            optimization</p>
+                        <div class="tools-chips">
+                            <span>Python</span><span>Data Analysis</span><span>Predictive Modeling</span>
+                        </div>
+                        <div class="card-actions">
+                            <a href="https://github.com/ingrade-ravi/Ravi-Portfolio" class="btn-small">GitHub</a>
+                            <a href="#" class="btn-small">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="card-image">
+                        <img src="Images/Cover1.png" alt="Apna Doctor">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Apna Doctor</h3>
+                        <p class="problem-stmt"><strong>Problem:</strong> Assisting doctors in faster and more accurate
+                            disease prediction</p>
+                        <div class="tools-chips">
+                            <span>Python</span><span>Data Aggregation</span><span>Predictive Modeling</span>
+                        </div>
+                        <div class="card-actions">
+                            <a href="https://github.com/ingrade-ravi/Ravi-Portfolio" class="btn-small">GitHub</a>
+                            <a href="#" class="btn-small">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="card-image">
+                        <img src="Images/Cover1.png" alt="Remote Controlled Hovercraft">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Remote Controlled Hovercraft</h3>
+                        <p class="problem-stmt"><strong>Problem:</strong> Building a high-speed, mobile-controlled
+                            hovercraft</p>
+                        <div class="tools-chips">
+                            <span>IoT</span><span>Mobile Control</span><span>Engineering Analytics</span>
+                        </div>
+                        <div class="card-actions">
+                            <a href="https://github.com/ingrade-ravi/Ravi-Portfolio" class="btn-small">GitHub</a>
+                            <a href="#" class="btn-small">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Dashboards/Visualizations (DARK) -->
+    <section id="dashboards" class="dashboards-section dark-theme">
+        <div class="container">
+            <h2 class="section-title">Dashboards & Visualizations</h2>
+            <div class="dashboard-grid">
+                <!-- Dashboard 1 -->
+                <div class="dashboard-card glass-card">
+                    <div class="card-image">
+                        <img src="Images/Cover1.png" alt="Sales Performance">
+                    </div>
+                    <div class="card-content">
+                        <h3>Sales Performance Analysis</h3>
+                        <p><strong>Problem:</strong> Sales data was fragmented, difficult to identify revenue drivers.
+                        </p>
+                        <ul class="insights-list">
+                            <li>Top 20% products contributed majority revenue</li>
+                            <li>Discovered seasonal trends</li>
+                        </ul>
+                        <div class="tools-chips">
+                            <span>SQL</span><span>Pandas</span><span>EDA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard 2 -->
+                <div class="dashboard-card glass-card">
+                    <div class="card-image">
+                        <img src="Images/Cover1.png" alt="Customer Churn">
+                    </div>
+                    <div class="card-content">
+                        <h3>Customer Churn Analysis</h3>
+                        <p><strong>Problem:</strong> Lack of visibility into churn reasons.</p>
+                        <ul class="insights-list">
+                            <li>High churn in low engagement users</li>
+                            <li>Pricing sensitivity identified</li>
+                        </ul>
+                        <div class="tools-chips">
+                            <span>Python</span><span>Statistical Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard 3 -->
+                <div class="dashboard-card glass-card">
+                    <div class="card-image">
+                        <img src="Images/Cover1.png" alt="Operational Toil">
+                    </div>
+                    <div class="card-content">
+                        <h3>Operational Toil Reduction</h3>
+                        <p><strong>Problem:</strong> Manual tasks consuming excessive time.</p>
+                        <ul class="insights-list">
+                            <li>Identified key toil processes</li>
+                            <li>Quantified time savings</li>
+                        </ul>
+                        <div class="tools-chips">
+                            <span>Data Analysis</span><span>Reporting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard 4 -->
+                <div class="dashboard-card glass-card">
+                    <div class="card-image">
+                        <img src="Images/Cover1.png" alt="Waste Management">
+                    </div>
+                    <div class="card-content">
+                        <h3>Waste Management Analysis</h3>
+                        <p><strong>Problem:</strong> Lack of forecasting in waste collection.</p>
+                        <ul class="insights-list">
+                            <li>Predicted waste generation patterns</li>
+                            <li>Optimized collection routes</li>
+                        </ul>
+                        <div class="tools-chips">
+                            <span>Predictive Analytics</span><span>Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Experience & Education (LIGHT) -->
+    <section id="experience" class="experience-section light-theme">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <!-- Experience Item 1 -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card-light">
+                        <h3>Senior System Engineer</h3>
+                        <h4>Infosys Pvt. Ltd.</h4>
+                        <span class="date">Nov 2020 – Present</span>
+                        <ul class="timeline-list">
+                            <li>Led a team of 3 engineers focused on toil reduction.</li>
+                            <li>Worked on reporting analytics to measure reduced toil.</li>
+                            <li>Generated reports/visualizations for operational decisions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education Item 1 -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card-light">
+                        <h3>B.Tech (Bachelor of Technology)</h3>
+                        <h4>Poornima Group of Institutions</h4>
+                        <span class="date">Aug 2016 – Sep 2020</span>
+                        <p>Focus on Engineering and Analytics foundation.</p>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card-light">
+                        <h3>Data Analyst Intern</h3>
+                        <h4>Forsk Technologies</h4>
+                        <span class="date">June 2019</span>
+                        <ul class="timeline-list">
+                            <li>Developed end-to-end machine learning prototypes.</li>
+                            <li>Scaled analytical models to production environments.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Contact (DARK) -->
+    <section id="contact" class="contact-section dark-theme">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-grid">
+                <!-- 1. LinkedIn -->
+                <a href="#" class="contact-card glass-card">
+                    <div class="icon">👔</div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect with me</p>
+                </a>
+
+                <!-- 2. GitHub -->
+                <a href="https://github.com/ingrade-ravi/Ravi-Portfolio" target="_blank"
+                    class="contact-card glass-card">
+                    <div class="icon">🐙</div>
+                    <h3>GitHub</h3>
+                    <p>View my code</p>
+                </a>
+
+                <!-- 3. Email -->
+                <a href="mailto:udaan.ravi@gmail.com" class="contact-card glass-card">
+                    <div class="icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>udaan.ravi@gmail.com</p>
+                </a>
+
+                <!-- 4. Contact Number -->
+                <a href="tel:+911234567890" class="contact-card glass-card">
+                    <div class="icon">📞</div>
+                    <h3>Phone</h3>
+                    <p>+91 1234567890</p>
+                </a>
+
+                <!-- 5. Address -->
+                <div class="contact-card glass-card">
+                    <div class="icon">📍</div>
+                    <h3>Address</h3>
+                    <p>Gurgaon, India</p>
+                </div>
+
+                <!-- 6. Medium -->
+                <a href="https://github.com/ingrade-ravi/Ravi-Portfolio" target="_blank"
+                    class="contact-card glass-card">
+                    <div class="icon">📝</div>
+                    <h3>Medium</h3>
+                    <p>Read my articles</p>
+                </a>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2026 Ravi Suthar. Built with pure HTML/CSS.</p>
+            </footer>
+        </div>
+    </section>
+
+    <script>
+        // Custom Cursor Logic
+        const cursor = document.getElementById('cursor');
+        const cursorBlur = document.getElementById('cursor-blur');
+
+        document.addEventListener('mousemove', (e) => {
+            const x = e.clientX;
+            const y = e.clientY;
+
+            // Direct follow
+            cursor.style.transform = `translate(${x}px, ${y}px)`;
+
+            // Lagging follow for blur
+            cursorBlur.animate({
+                transform: `translate(${x}px, ${y}px)`
+            }, { duration: 500, fill: "forwards" });
+        });
+
+        // Add hover classes
+        const links = document.querySelectorAll('a, button, .project-card, .dashboard-card, .timeline-content');
+        links.forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                cursor.classList.add('active');
+                cursorBlur.classList.add('active');
+            });
+            link.addEventListener('mouseleave', () => {
+                cursor.classList.remove('active');
+                cursorBlur.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
